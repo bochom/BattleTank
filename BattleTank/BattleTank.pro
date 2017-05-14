@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 TEMPLATE = aux
-CONFIG += c++11
+CONFIG += c++14
 CONFIG -= console
 CONFIG -= app_bundle
 CONFIG -= qt
@@ -179,6 +179,12 @@ UnrealVersionSelector-Linux-Shipping.commands = $$build UnrealVersionSelector Li
 UnrealVersionSelector-Linux-Test.commands = $$build UnrealVersionSelector Linux Test  $$args
 UnrealVersionSelector.commands = $$build UnrealVersionSelector Linux Development  $$args
 
+UnrealWatchdog-Linux-Debug.commands = $$build UnrealWatchdog Linux Debug  $$args
+UnrealWatchdog-Linux-DebugGame.commands = $$build UnrealWatchdog Linux DebugGame  $$args
+UnrealWatchdog-Linux-Shipping.commands = $$build UnrealWatchdog Linux Shipping  $$args
+UnrealWatchdog-Linux-Test.commands = $$build UnrealWatchdog Linux Test  $$args
+UnrealWatchdog.commands = $$build UnrealWatchdog Linux Development  $$args
+
 BootstrapPackagedGame-Linux-Debug.commands = $$build BootstrapPackagedGame Linux Debug  $$args
 BootstrapPackagedGame-Linux-DebugGame.commands = $$build BootstrapPackagedGame Linux DebugGame  $$args
 BootstrapPackagedGame-Linux-Shipping.commands = $$build BootstrapPackagedGame Linux Shipping  $$args
@@ -328,6 +334,11 @@ QMAKE_EXTRA_TARGETS += \
 	UnrealVersionSelector-Linux-Shipping \
 	UnrealVersionSelector-Linux-Test \
 	UnrealVersionSelector \
+	UnrealWatchdog-Linux-Debug \
+	UnrealWatchdog-Linux-DebugGame \
+	UnrealWatchdog-Linux-Shipping \
+	UnrealWatchdog-Linux-Test \
+	UnrealWatchdog \
 	BootstrapPackagedGame-Linux-Debug \
 	BootstrapPackagedGame-Linux-DebugGame \
 	BootstrapPackagedGame-Linux-Shipping \

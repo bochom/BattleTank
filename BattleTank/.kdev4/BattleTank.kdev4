@@ -3278,24 +3278,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig131]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BootstrapPackagedGame-Linux-Debug
+Title=UnrealWatchdog-Linux-Debug
 
 [CustomBuildSystem][BuildConfig131][ToolBuild]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Debug
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Debug
 Enabled=true
 Environment=
 Executable=bash
 Type=0
 
 [CustomBuildSystem][BuildConfig131][ToolConfigure]
-Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Debug
+Arguments=./GenerateProjectFiles.sh  UnrealWatchdog Linux Debug
 Enabled=true
 Environment=
 Executable=bash
 Type=1
 
 [CustomBuildSystem][BuildConfig131][ToolClean]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Debug -clean
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Debug -clean
 Enabled=true
 Environment=
 Executable=bash
@@ -3303,24 +3303,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig132]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BootstrapPackagedGame-Linux-DebugGame
+Title=UnrealWatchdog-Linux-DebugGame
 
 [CustomBuildSystem][BuildConfig132][ToolBuild]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux DebugGame
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux DebugGame
 Enabled=true
 Environment=
 Executable=bash
 Type=0
 
 [CustomBuildSystem][BuildConfig132][ToolConfigure]
-Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux DebugGame
+Arguments=./GenerateProjectFiles.sh  UnrealWatchdog Linux DebugGame
 Enabled=true
 Environment=
 Executable=bash
 Type=1
 
 [CustomBuildSystem][BuildConfig132][ToolClean]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux DebugGame -clean
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux DebugGame -clean
 Enabled=true
 Environment=
 Executable=bash
@@ -3328,24 +3328,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig133]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BootstrapPackagedGame-Linux-Shipping
+Title=UnrealWatchdog-Linux-Shipping
 
 [CustomBuildSystem][BuildConfig133][ToolBuild]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Shipping
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Shipping
 Enabled=true
 Environment=
 Executable=bash
 Type=0
 
 [CustomBuildSystem][BuildConfig133][ToolConfigure]
-Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Shipping
+Arguments=./GenerateProjectFiles.sh  UnrealWatchdog Linux Shipping
 Enabled=true
 Environment=
 Executable=bash
 Type=1
 
 [CustomBuildSystem][BuildConfig133][ToolClean]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Shipping -clean
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Shipping -clean
 Enabled=true
 Environment=
 Executable=bash
@@ -3353,24 +3353,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig134]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BootstrapPackagedGame-Linux-Test
+Title=UnrealWatchdog-Linux-Test
 
 [CustomBuildSystem][BuildConfig134][ToolBuild]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Test
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Test
 Enabled=true
 Environment=
 Executable=bash
 Type=0
 
 [CustomBuildSystem][BuildConfig134][ToolConfigure]
-Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Test
+Arguments=./GenerateProjectFiles.sh  UnrealWatchdog Linux Test
 Enabled=true
 Environment=
 Executable=bash
 Type=1
 
 [CustomBuildSystem][BuildConfig134][ToolClean]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Test -clean
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Test -clean
 Enabled=true
 Environment=
 Executable=bash
@@ -3378,24 +3378,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig135]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BootstrapPackagedGame
+Title=UnrealWatchdog
 
 [CustomBuildSystem][BuildConfig135][ToolBuild]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Development
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Development
 Enabled=true
 Environment=
 Executable=bash
 Type=0
 
 [CustomBuildSystem][BuildConfig135][ToolConfigure]
-Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Development
+Arguments=./GenerateProjectFiles.sh  UnrealWatchdog Linux Development
 Enabled=true
 Environment=
 Executable=bash
 Type=1
 
 [CustomBuildSystem][BuildConfig135][ToolClean]
-Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Development -clean
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  UnrealWatchdog Linux Development -clean
 Enabled=true
 Environment=
 Executable=bash
@@ -3403,149 +3403,149 @@ Type=3
 
 [CustomBuildSystem][BuildConfig136]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTank-Linux-Debug
+Title=BootstrapPackagedGame-Linux-Debug
 
 [CustomBuildSystem][BuildConfig136][ToolBuild]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Debug
+Enabled=true
+Environment=
+Executable=bash
+Type=0
+
+[CustomBuildSystem][BuildConfig136][ToolConfigure]
+Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Debug
+Enabled=true
+Environment=
+Executable=bash
+Type=1
+
+[CustomBuildSystem][BuildConfig136][ToolClean]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Debug -clean
+Enabled=true
+Environment=
+Executable=bash
+Type=3
+
+[CustomBuildSystem][BuildConfig137]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BootstrapPackagedGame-Linux-DebugGame
+
+[CustomBuildSystem][BuildConfig137][ToolBuild]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux DebugGame
+Enabled=true
+Environment=
+Executable=bash
+Type=0
+
+[CustomBuildSystem][BuildConfig137][ToolConfigure]
+Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux DebugGame
+Enabled=true
+Environment=
+Executable=bash
+Type=1
+
+[CustomBuildSystem][BuildConfig137][ToolClean]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux DebugGame -clean
+Enabled=true
+Environment=
+Executable=bash
+Type=3
+
+[CustomBuildSystem][BuildConfig138]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BootstrapPackagedGame-Linux-Shipping
+
+[CustomBuildSystem][BuildConfig138][ToolBuild]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Shipping
+Enabled=true
+Environment=
+Executable=bash
+Type=0
+
+[CustomBuildSystem][BuildConfig138][ToolConfigure]
+Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Shipping
+Enabled=true
+Environment=
+Executable=bash
+Type=1
+
+[CustomBuildSystem][BuildConfig138][ToolClean]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Shipping -clean
+Enabled=true
+Environment=
+Executable=bash
+Type=3
+
+[CustomBuildSystem][BuildConfig139]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BootstrapPackagedGame-Linux-Test
+
+[CustomBuildSystem][BuildConfig139][ToolBuild]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Test
+Enabled=true
+Environment=
+Executable=bash
+Type=0
+
+[CustomBuildSystem][BuildConfig139][ToolConfigure]
+Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Test
+Enabled=true
+Environment=
+Executable=bash
+Type=1
+
+[CustomBuildSystem][BuildConfig139][ToolClean]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Test -clean
+Enabled=true
+Environment=
+Executable=bash
+Type=3
+
+[CustomBuildSystem][BuildConfig140]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BootstrapPackagedGame
+
+[CustomBuildSystem][BuildConfig140][ToolBuild]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Development
+Enabled=true
+Environment=
+Executable=bash
+Type=0
+
+[CustomBuildSystem][BuildConfig140][ToolConfigure]
+Arguments=./GenerateProjectFiles.sh  BootstrapPackagedGame Linux Development
+Enabled=true
+Environment=
+Executable=bash
+Type=1
+
+[CustomBuildSystem][BuildConfig140][ToolClean]
+Arguments=Engine/Build/BatchFiles/Linux/Build.sh  BootstrapPackagedGame Linux Development -clean
+Enabled=true
+Environment=
+Executable=bash
+Type=3
+
+[CustomBuildSystem][BuildConfig141]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BattleTank-Linux-Debug
+
+[CustomBuildSystem][BuildConfig141][ToolBuild]
 Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Debug
 Enabled=true
 Environment=
 Executable=mono
 Type=0
 
-[CustomBuildSystem][BuildConfig136][ToolConfigure]
+[CustomBuildSystem][BuildConfig141][ToolConfigure]
 Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Debug
 Enabled=true
 Environment=
 Executable=mono
 Type=1
 
-[CustomBuildSystem][BuildConfig136][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Debug -clean
-Enabled=true
-Environment=
-Executable=mono
-Type=3
-
-[CustomBuildSystem][BuildConfig137]
-BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTank-Linux-DebugGame
-
-[CustomBuildSystem][BuildConfig137][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux DebugGame
-Enabled=true
-Environment=
-Executable=mono
-Type=0
-
-[CustomBuildSystem][BuildConfig137][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux DebugGame
-Enabled=true
-Environment=
-Executable=mono
-Type=1
-
-[CustomBuildSystem][BuildConfig137][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux DebugGame -clean
-Enabled=true
-Environment=
-Executable=mono
-Type=3
-
-[CustomBuildSystem][BuildConfig138]
-BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTank-Linux-Shipping
-
-[CustomBuildSystem][BuildConfig138][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Shipping
-Enabled=true
-Environment=
-Executable=mono
-Type=0
-
-[CustomBuildSystem][BuildConfig138][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Shipping
-Enabled=true
-Environment=
-Executable=mono
-Type=1
-
-[CustomBuildSystem][BuildConfig138][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Shipping -clean
-Enabled=true
-Environment=
-Executable=mono
-Type=3
-
-[CustomBuildSystem][BuildConfig139]
-BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTank-Linux-Test
-
-[CustomBuildSystem][BuildConfig139][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Test
-Enabled=true
-Environment=
-Executable=mono
-Type=0
-
-[CustomBuildSystem][BuildConfig139][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Test
-Enabled=true
-Environment=
-Executable=mono
-Type=1
-
-[CustomBuildSystem][BuildConfig139][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Test -clean
-Enabled=true
-Environment=
-Executable=mono
-Type=3
-
-[CustomBuildSystem][BuildConfig140]
-BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTank
-
-[CustomBuildSystem][BuildConfig140][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Development
-Enabled=true
-Environment=
-Executable=mono
-Type=0
-
-[CustomBuildSystem][BuildConfig140][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Development
-Enabled=true
-Environment=
-Executable=mono
-Type=1
-
-[CustomBuildSystem][BuildConfig140][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Development -clean
-Enabled=true
-Environment=
-Executable=mono
-Type=3
-
-[CustomBuildSystem][BuildConfig141]
-BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTankEditor-Linux-Debug
-
-[CustomBuildSystem][BuildConfig141][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Debug
-Enabled=true
-Environment=
-Executable=mono
-Type=0
-
-[CustomBuildSystem][BuildConfig141][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Debug
-Enabled=true
-Environment=
-Executable=mono
-Type=1
-
 [CustomBuildSystem][BuildConfig141][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Debug -clean
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Debug -clean
 Enabled=true
 Environment=
 Executable=mono
@@ -3553,24 +3553,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig142]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTankEditor-Linux-DebugGame
+Title=BattleTank-Linux-DebugGame
 
 [CustomBuildSystem][BuildConfig142][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux DebugGame
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux DebugGame
 Enabled=true
 Environment=
 Executable=mono
 Type=0
 
 [CustomBuildSystem][BuildConfig142][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux DebugGame
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux DebugGame
 Enabled=true
 Environment=
 Executable=mono
 Type=1
 
 [CustomBuildSystem][BuildConfig142][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux DebugGame -clean
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux DebugGame -clean
 Enabled=true
 Environment=
 Executable=mono
@@ -3578,24 +3578,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig143]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTankEditor-Linux-Shipping
+Title=BattleTank-Linux-Shipping
 
 [CustomBuildSystem][BuildConfig143][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Shipping
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Shipping
 Enabled=true
 Environment=
 Executable=mono
 Type=0
 
 [CustomBuildSystem][BuildConfig143][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Shipping
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Shipping
 Enabled=true
 Environment=
 Executable=mono
 Type=1
 
 [CustomBuildSystem][BuildConfig143][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Shipping -clean
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Shipping -clean
 Enabled=true
 Environment=
 Executable=mono
@@ -3603,24 +3603,24 @@ Type=3
 
 [CustomBuildSystem][BuildConfig144]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTankEditor-Linux-Test
+Title=BattleTank-Linux-Test
 
 [CustomBuildSystem][BuildConfig144][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Test
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Test
 Enabled=true
 Environment=
 Executable=mono
 Type=0
 
 [CustomBuildSystem][BuildConfig144][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Test
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Test
 Enabled=true
 Environment=
 Executable=mono
 Type=1
 
 [CustomBuildSystem][BuildConfig144][ToolClean]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Test -clean
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Test -clean
 Enabled=true
 Environment=
 Executable=mono
@@ -3628,23 +3628,148 @@ Type=3
 
 [CustomBuildSystem][BuildConfig145]
 BuildDir=file:///home/eduardo/Escritorio/unreal-engine
-Title=BattleTankEditor
+Title=BattleTank
 
 [CustomBuildSystem][BuildConfig145][ToolBuild]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Development
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Development
 Enabled=true
 Environment=
 Executable=mono
 Type=0
 
 [CustomBuildSystem][BuildConfig145][ToolConfigure]
-Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Development
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTank Linux Development
 Enabled=true
 Environment=
 Executable=mono
 Type=1
 
 [CustomBuildSystem][BuildConfig145][ToolClean]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTank Linux Development -clean
+Enabled=true
+Environment=
+Executable=mono
+Type=3
+
+[CustomBuildSystem][BuildConfig146]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BattleTankEditor-Linux-Debug
+
+[CustomBuildSystem][BuildConfig146][ToolBuild]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Debug
+Enabled=true
+Environment=
+Executable=mono
+Type=0
+
+[CustomBuildSystem][BuildConfig146][ToolConfigure]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Debug
+Enabled=true
+Environment=
+Executable=mono
+Type=1
+
+[CustomBuildSystem][BuildConfig146][ToolClean]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Debug -clean
+Enabled=true
+Environment=
+Executable=mono
+Type=3
+
+[CustomBuildSystem][BuildConfig147]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BattleTankEditor-Linux-DebugGame
+
+[CustomBuildSystem][BuildConfig147][ToolBuild]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux DebugGame
+Enabled=true
+Environment=
+Executable=mono
+Type=0
+
+[CustomBuildSystem][BuildConfig147][ToolConfigure]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux DebugGame
+Enabled=true
+Environment=
+Executable=mono
+Type=1
+
+[CustomBuildSystem][BuildConfig147][ToolClean]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux DebugGame -clean
+Enabled=true
+Environment=
+Executable=mono
+Type=3
+
+[CustomBuildSystem][BuildConfig148]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BattleTankEditor-Linux-Shipping
+
+[CustomBuildSystem][BuildConfig148][ToolBuild]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Shipping
+Enabled=true
+Environment=
+Executable=mono
+Type=0
+
+[CustomBuildSystem][BuildConfig148][ToolConfigure]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Shipping
+Enabled=true
+Environment=
+Executable=mono
+Type=1
+
+[CustomBuildSystem][BuildConfig148][ToolClean]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Shipping -clean
+Enabled=true
+Environment=
+Executable=mono
+Type=3
+
+[CustomBuildSystem][BuildConfig149]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BattleTankEditor-Linux-Test
+
+[CustomBuildSystem][BuildConfig149][ToolBuild]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Test
+Enabled=true
+Environment=
+Executable=mono
+Type=0
+
+[CustomBuildSystem][BuildConfig149][ToolConfigure]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Test
+Enabled=true
+Environment=
+Executable=mono
+Type=1
+
+[CustomBuildSystem][BuildConfig149][ToolClean]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Test -clean
+Enabled=true
+Environment=
+Executable=mono
+Type=3
+
+[CustomBuildSystem][BuildConfig150]
+BuildDir=file:///home/eduardo/Escritorio/unreal-engine
+Title=BattleTankEditor
+
+[CustomBuildSystem][BuildConfig150][ToolBuild]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Development
+Enabled=true
+Environment=
+Executable=mono
+Type=0
+
+[CustomBuildSystem][BuildConfig150][ToolConfigure]
+Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -makefile -kdevelopfile  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" -game -engine  BattleTankEditor Linux Development
+Enabled=true
+Environment=
+Executable=mono
+Type=1
+
+[CustomBuildSystem][BuildConfig150][ToolClean]
 Arguments=Engine/Binaries/DotNET/UnrealBuildTool.exe  -editorrecompile -project="/home/eduardo/Escritorio/cursos/BattleTank/BattleTank/BattleTank.uproject" BattleTankEditor Linux Development -clean
 Enabled=true
 Environment=

@@ -135,6 +135,11 @@ TARGETS = \
 	UnrealVersionSelector-Linux-Shipping  \
 	UnrealVersionSelector-Linux-Test  \
 	UnrealVersionSelector \
+	UnrealWatchdog-Linux-Debug  \
+	UnrealWatchdog-Linux-DebugGame  \
+	UnrealWatchdog-Linux-Shipping  \
+	UnrealWatchdog-Linux-Test  \
+	UnrealWatchdog \
 	BootstrapPackagedGame-Linux-Debug  \
 	BootstrapPackagedGame-Linux-DebugGame  \
 	BootstrapPackagedGame-Linux-Shipping  \
@@ -553,6 +558,21 @@ UnrealVersionSelector-Linux-Test:
 
 UnrealVersionSelector:
 	 $(BUILD) UnrealVersionSelector Linux Development  $(ARGS)
+
+UnrealWatchdog-Linux-Debug:
+	 $(BUILD) UnrealWatchdog Linux Debug  $(ARGS)
+
+UnrealWatchdog-Linux-DebugGame:
+	 $(BUILD) UnrealWatchdog Linux DebugGame  $(ARGS)
+
+UnrealWatchdog-Linux-Shipping:
+	 $(BUILD) UnrealWatchdog Linux Shipping  $(ARGS)
+
+UnrealWatchdog-Linux-Test:
+	 $(BUILD) UnrealWatchdog Linux Test  $(ARGS)
+
+UnrealWatchdog:
+	 $(BUILD) UnrealWatchdog Linux Development  $(ARGS)
 
 BootstrapPackagedGame-Linux-Debug:
 	 $(BUILD) BootstrapPackagedGame Linux Debug  $(ARGS)

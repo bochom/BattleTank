@@ -31,11 +31,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Core/Public/Linux \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Core \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerService/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerService/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProfilerService \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerService \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerClient/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerClient/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProfilerClient \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerClient \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CoreUObject/Public \
@@ -52,12 +50,15 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/AI \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/AI/Navigation \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Animation \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Curves \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/EdGraph \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Features \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Internationalization \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Net \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/PacketHandlers \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Performance \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Physics \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Rendering \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Slate \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/Tests \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Public/VisualLogger \
@@ -96,6 +97,7 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/Commands \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/Docking \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/Layout \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/MetaData \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/MultiBox \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/Notifications \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Slate/Public/Framework/Styling \
@@ -133,7 +135,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AssetRegistry/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetRegistry \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AssetRegistry \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/EngineMessages/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/EngineMessages/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EngineMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/EngineMessages \
@@ -147,14 +148,14 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Renderer/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Renderer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Renderer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AIModule \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTags/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTags/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTags \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTags \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AIModule \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTasks/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTasks/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasks \
@@ -218,10 +219,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealEdMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/UnrealEdMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/GameplayDebugger/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AIModule/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Settings/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayAbilities/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/GameplayDebugger/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayDebugger \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/GameplayDebugger \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/BlueprintGraph/Classes \
@@ -253,9 +250,55 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Internationalization/Public/Serialization \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Internationalization \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Internationalization \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AudioEditor/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AudioEditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AudioEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/LevelEditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/LevelEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Settings/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Settings \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Settings \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/UserFeedback/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UserFeedback \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/UserFeedback \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/IntroTutorials/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IntroTutorials \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/IntroTutorials \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/HeadMountedDisplay/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HeadMountedDisplay \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/HeadMountedDisplay \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/VREditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VREditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/VREditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Landscape/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Landscape/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Landscape \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Landscape \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PropertyEditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PropertyEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PropertyEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ActorPickerMode/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ActorPickerMode \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ActorPickerMode \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SceneDepthPickerMode/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneDepthPickerMode \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SceneDepthPickerMode \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DetailCustomizations/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DetailCustomizations/Public/Customizations \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DetailCustomizations \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DetailCustomizations \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ClassViewer/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClassViewer \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ClassViewer \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Public/KismetNodes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ContentBrowser/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ContentBrowser \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ContentBrowser \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CollectionManager/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollectionManager \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CollectionManager \
@@ -272,12 +315,16 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Kismet \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Kismet \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MediaAssets/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaAssets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MediaAssets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Media/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Media \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Media \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MediaUtils/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MediaUtils \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MediaUtils \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MoviePlayer/Public \
@@ -300,9 +347,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Serialization/Public/Backends \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Serialization \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Serialization \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/HeadMountedDisplay/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HeadMountedDisplay \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/HeadMountedDisplay \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CoreUObject/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkFile/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkFile \
@@ -347,21 +391,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetWidgets/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetWidgets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetWidgets \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PropertyEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PropertyEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PropertyEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ActorPickerMode/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ActorPickerMode \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ActorPickerMode \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SceneDepthPickerMode/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneDepthPickerMode \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SceneDepthPickerMode \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/IntroTutorials/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IntroTutorials \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/IntroTutorials \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ContentBrowser/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ContentBrowser \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ContentBrowser \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/WorkspaceMenuStructure/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WorkspaceMenuStructure \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/WorkspaceMenuStructure \
@@ -371,17 +400,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/EditorWidgets/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorWidgets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/EditorWidgets \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Settings \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Settings \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AssetTools/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AssetTools \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AssetTools \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/LevelEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/LevelEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/VREditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/VREditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/VREditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/2D/Paper2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PaperSpriteSheetImporter \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/Classes \
@@ -398,51 +419,8 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Blendables/LightPropagationVolume/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LightPropagationVolumeEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Blendables/LightPropagationVolume/Source/LightPropagationVolumeEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/BlankPlugin/Source/Developer/BlankPlugin/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/BlankPlugin/Source/BlankPlugin/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/BlankPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankPlugin \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/BlankPlugin/Source/BlankPlugin \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeLiteSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Source/CodeLiteSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SourceCodeAccess/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/HotReload/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HotReload \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/HotReload \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/GitSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GitSourceControl \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/GitSourceControl/Source/GitSourceControl \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KDevelopSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/KDevelopSourceCodeAccess/Source/KDevelopSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/NullSourceCodeAccess/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/NullSourceCodeAccess/Source/NullSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/OneSkyLocalizationService/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OneSkyLocalizationService \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/OneSkyLocalizationService/Source/OneSkyLocalizationService \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LocalizationService/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationService \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LocalizationService \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Localization/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Localization \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MainFrame/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MainFrame/Public/Interfaces \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MainFrame \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MainFrame \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerforceSourceControl \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/QtCreatorSourceCodeAccess-master/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/QtCreatorSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/QtCreatorSourceCodeAccess-master/Source/QtCreatorSourceCodeAccess \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/SubversionSourceControl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SubversionSourceControl \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/SubversionSourceControl/Source/SubversionSourceControl \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/XmlParser/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/XmlParser/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XmlParser \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/XmlParser \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/UObjectPlugin/Source/Developer/UObjectPlugin/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/UObjectPlugin/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UObjectPlugin \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/UObjectPlugin/Source/UObjectPlugin \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/EpicSurvey/Source/EpicSurvey/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/EpicSurvey/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EpicSurvey \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/EpicSurvey/Source/EpicSurvey \
@@ -459,6 +437,23 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystem/Source/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystem/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineSubsystem \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystem/Source \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MainFrame/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MainFrame/Public/Interfaces \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MainFrame \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MainFrame \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimation/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/FacialAnimation/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FacialAnimation \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimation \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/FacialAnimation/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FacialAnimationEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/FacialAnimation/Source/FacialAnimationEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform/Public/Common \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform/Public/Interfaces \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetPlatform \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Persona/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Persona \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Persona \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Source/MobileLauncherProfileWizard/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MobileLauncherProfileWizard \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Editor/MobileLauncherProfileWizard/Source/MobileLauncherProfileWizard \
@@ -472,11 +467,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetDeviceServices/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetDeviceServices \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetDeviceServices \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform/Public/Common \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform/Public/Interfaces \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TargetPlatform \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AppFramework/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AppFramework/Public/Widgets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AppFramework/Public/Widgets/Colors \
@@ -521,10 +511,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/BlueprintStats/Source/BlueprintStats/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/BlueprintStats/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintStats \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/BlueprintStats/Source/BlueprintStats \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Public/KismetNodes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GraphEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessageLog \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog \
@@ -532,26 +518,14 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CharacterAI/Source/CharacterAI/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CharacterAI/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CharacterAI \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CharacterAI/Source/CharacterAI \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CodeEditor/Source/Developer/CodeEditor/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CodeEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CodeEditor/Source/CodeEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CodeView/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CodeView \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/CodeView/Source/CodeView \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DetailCustomizations/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DetailCustomizations/Public/Customizations \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DetailCustomizations \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DetailCustomizations \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/Phya/Source/Phya/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/Phya/Source/Phya/Private/PhyaLib/include \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/Phya/Source/Phya/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/Phya/Source/Phya/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/Phya/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Phya \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/Phya/Source/Phya \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/SignificanceManager/Source/SignificanceManager/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/SignificanceManager/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/SignificanceManager/Source/SignificanceManager/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/SignificanceManager/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SignificanceManager \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/SignificanceManager/Source/SignificanceManager \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/SimpleHMD/Source/SimpleHMD/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Renderer/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Experimental/SimpleHMD/Source/SimpleHMD/Public \
@@ -574,6 +548,7 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AvfMediaEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Source/AvfMediaEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AvfMediaFactory \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Public \
@@ -599,6 +574,15 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/TextureEditor/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/TextureEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Source/MfMediaEditor/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MfMediaEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Source/MfMediaEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Source/MfMediaFactory/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MfMediaFactory \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Source/MfMediaFactory \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Source/MfMedia/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MfMedia \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/MfMedia/Source/MfMedia \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/WmfMedia/Source/WmfMediaEditor/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/WmfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WmfMediaEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/WmfMedia/Source/WmfMediaEditor \
@@ -609,22 +593,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/WmfMedia/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WmfMedia \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Media/WmfMedia/Source/WmfMedia \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Models \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Styles \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Breakpoints \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/EndpointDetails \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Endpoints \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Graph \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/History \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Interceptors \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/MessageData \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/MessageDetails \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Types \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Widgets/Toolbar \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MessagingDebugger \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Shared \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Transport \
@@ -633,6 +601,24 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/UdpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UdpMessaging \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/MovieScene/ActorSequenceEditor/Source/ActorSequenceEditor/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/MovieScene/ActorSequenceEditor/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ActorSequenceEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/MovieScene/ActorSequenceEditor/Source/ActorSequenceEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/ActorSequence/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ActorSequence \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/ActorSequence \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene/Public/Compilation \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene/Public/Evaluation \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Sequencer/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Sequencer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/AssetTools \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/Customizations \
@@ -644,12 +630,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/LevelSequence/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LevelSequence \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/LevelSequence \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieScene \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Public/Sections \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Public/TrackInstances \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTracks \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks \
@@ -664,13 +647,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CinematicCamera/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CinematicCamera \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CinematicCamera \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneTools \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Sequencer/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Sequencer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Sequencer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SceneOutliner/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SceneOutliner \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SceneOutliner \
@@ -727,6 +703,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineFramework/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Hotfix \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineFramework/Source/Hotfix \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineFramework/Source/Rejoin/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineFramework/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Rejoin \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineFramework/Source/Rejoin \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystem/Source/OnlineSubsystem/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/ImageCore/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageCore \
@@ -749,9 +728,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Voice \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/Voice \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystemUtils/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OnlineBlueprintSupport \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnalyticsBlueprintLibrary \
@@ -781,6 +757,12 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/Analytics/Flurry/Source/FlurryEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/Analytics/Flurry/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FlurryEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/Analytics/Flurry/Source/FlurryEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/AndroidPermission/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/AndroidPermission/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidPermission \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/AndroidPermission/Source/AndroidPermission \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ArchVisCharacter/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ArchVisCharacter \
@@ -799,11 +781,40 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Source/ExampleDeviceProfileSelector/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ExampleDeviceProfileSelector \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Source/ExampleDeviceProfileSelector \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/Abilities \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/Abilities/Tasks \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GameplayAbilities/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilities \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorder/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorder \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorder \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/GoogleVRTransition2D/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GoogleVRTransition2D \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/GoogleVR/GoogleVRTransition2D/Source/GoogleVRTransition2D \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/Runtime/LinuxDeviceProfileSelector/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/LinuxDeviceProfileSelector/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/LinuxDeviceProfileSelector/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxDeviceProfileSelector \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/LinuxDeviceProfileSelector \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidEditor/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidEditor/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidEditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocationServicesAndroidEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesBPLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocationServicesBPLibrary \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSEditor/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSEditor/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSEditor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesIOSImpl/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocationServicesIOSEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/MIDIDevice/Source/MIDIDevice/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/MIDIDevice/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MIDIDevice \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/MIDIDevice/Source/MIDIDevice \
@@ -814,11 +825,25 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BuildPatchServices \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/BuildPatchServices \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary/Classes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OptionalMobileFeaturesBPLibrary \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/OptionalMobileFeaturesBPLibrary/Source/OptionalMobileFeaturesBPLibrary \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Source/OodleHandlerComponent/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Source/OodleHandlerComponent/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Source/OodleHandlerComponent/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/OodleHandlerComponent \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Source/OodleHandlerComponent \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/PhysXVehicles/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PhysXVehicles/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXVehicles \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNodes \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/ProceduralMeshComponent/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public \
@@ -829,6 +854,11 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponentEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProceduralMeshComponentEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponentEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SignificanceManager/Source/SignificanceManager/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/SignificanceManager/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SignificanceManager/Source/SignificanceManager/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SignificanceManager/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SignificanceManager \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SignificanceManager/Source/SignificanceManager \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SoundMod/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundModImporter \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter \
@@ -847,6 +877,12 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/InputDevice/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InputDevice \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/InputDevice \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/WebBrowserWidget/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowserWidget \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/WebBrowser/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowser \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/WebBrowser \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private/Server \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Slate/SlateRemote/Source/SlateRemote/Private/Shared \
@@ -873,11 +909,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ScreenShotComparisonTools \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ScreenShotComparisonTools \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/RuntimeTests/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Tests/RuntimeTests/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/RuntimeTests \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Tests/RuntimeTests/Source/RuntimeTests \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/ScreenshotTools/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public \
@@ -931,6 +962,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Toolbox/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Settings/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SourceCodeAccess/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SourceCodeAccess/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceCodeAccess \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SourceCodeAccess \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DerivedDataCache \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/DerivedDataCache \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Core/Private \
@@ -951,7 +985,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Messaging/Private/Serialization \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/EngineMessages/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SessionMessages/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SessionMessages/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SessionMessages/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SessionMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SessionMessages \
@@ -985,10 +1018,16 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/OpenGLDrv \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/RHI/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieScene/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Private/Sections \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Private/Tracks \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneTracks/Private/TrackInstances \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL/Public/Interfaces \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SSL \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/HTTP/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SlateRHIRenderer/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/UMG/Private \
@@ -997,10 +1036,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/CurveAssetEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CurveAssetEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/CurveAssetEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private/Presentation \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private/UserInterface \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private/Model \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SourceControl/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashTracker/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashTracker/Public \
@@ -1011,67 +1046,13 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SourceControlWindows/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SourceControlWindows \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SourceControlWindows \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderPreprocessor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderPreprocessor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderPreprocessor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderCompilerCommon/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCompilerCommon \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderCompilerCommon \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderFormatOpenGL/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderFormatOpenGL \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderFormatOpenGL \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatDXT \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatDXT \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureCompressor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureCompressor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureCompressor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatPVR \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatPVR \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatIntelISPCTexComp \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatIntelISPCTexComp \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatASTC \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatASTC \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatUncompressed \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatUncompressed \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOgg \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AudioFormatOgg \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOpus \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AudioFormatOpus \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Serialization/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Settings \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Transport \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TcpMessaging \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidDeviceDetection \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidDeviceDetection \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AndroidTargetPlatform/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/SessionServices \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidTargetPlatform/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_PVRTCTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/Android_PVRTCTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ATCTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/Android_ATCTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_DXTTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/Android_DXTTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ETC1TargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/Android_ETC1TargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ETC2TargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/Android_ETC2TargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Android_ASTCTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/Android_ASTCTargetPlatform \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/PhysXFormats/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXFormats \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/PhysXFormats \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LinuxTargetPlatform/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxTargetPlatform \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Linux/LinuxTargetPlatform \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureCompressor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureCompressor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureCompressor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LinuxNoEditorTargetPlatform \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Linux/LinuxNoEditorTargetPlatform \
@@ -1085,6 +1066,22 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/IOS/LaunchDaemonMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AllDesktopTargetPlatform \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AllDesktopTargetPlatform \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderCompilerCommon/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderCompilerCommon \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderCompilerCommon \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderPreprocessor/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderPreprocessor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderPreprocessor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderFormatOpenGL/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ShaderFormatOpenGL \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderFormatOpenGL \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/PhysXFormats/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhysXFormats \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/PhysXFormats \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private/Presentation \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private/UserInterface \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/MessageLog/Private/Model \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/WidgetCarousel/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/WidgetCarousel/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WidgetCarousel \
@@ -1099,6 +1096,13 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/MovieSceneCapture \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MovieSceneCapture \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PackagesDialog/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PackagesDialog \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PackagesDialog \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/XmlParser/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/XmlParser/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XmlParser \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/XmlParser \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TreeMap/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TreeMap \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TreeMap \
@@ -1116,31 +1120,20 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/StatsViewer/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StatsViewer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/StatsViewer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Landscape/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Landscape/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Landscape \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Landscape \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DeviceProfileServices/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DeviceProfileServices/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DeviceProfileServices \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DeviceProfileServices \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Serialization/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CEF3Utils/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CEF3Utils/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CEF3Utils \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CEF3Utils \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/WebBrowser/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/WebBrowser/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebBrowser \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/WebBrowser \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Documentation/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimNodes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraphRuntime \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AnimGraphRuntime \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SkeletonEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SkeletonEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SkeletonEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Persona/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Persona \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Persona \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AnimGraph/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AnimGraph/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AnimGraph \
@@ -1158,9 +1151,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorderSections/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorderSections \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorderSections \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorder/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SequenceRecorder \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorder \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Sequencer/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Sequencer/Private/DisplayNodes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/UnrealEd/Private \
@@ -1208,24 +1198,10 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Navmesh/Public/Recast \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Navmesh \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Navmesh \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTags/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayTagsEditor/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AssetTools/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayTagsEditor/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayTagsEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTagsEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayTagsEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetCompiler/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetCompiler \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetCompiler \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayAbilities/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayAbilities/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayAbilities/Public/Abilities \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayAbilities/Public/Abilities/Tasks \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilities \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayAbilities \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/GameplayDebugger/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GameplayTags/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AIModule/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Engine/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/MessageLog/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Stats/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/FunctionalTesting/Private \
@@ -1254,12 +1230,12 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AutomationMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/UnrealEdMessages/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ScreenShotComparisonTools/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AutomationController/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationWindow/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationWindow/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationWindow \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationWindow \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ScreenShotComparisonTools/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/DesktopWidgets/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/DesktopWidgets/Private/Widgets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/DesktopWidgets/Private/Widgets/Input \
@@ -1271,14 +1247,12 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ScreenShotComparison \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ScreenShotComparison \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ProfilerMessages/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerMessages/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerMessages/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ProfilerMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ProfilerMessages \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Profiler/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Profiler/Private/Widgets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Profiler/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Profiler/Public/Interfaces \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Profiler \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Profiler \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SessionFrontend/Private \
@@ -1311,9 +1285,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DeviceProfileEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DeviceProfileEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DeviceProfileEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ClassViewer/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ClassViewer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/ClassViewer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Portal/Services/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Portal/Services/Public/Account \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Portal/Services/Public/Application \
@@ -1321,9 +1292,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PortalServices \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Portal/Services \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NetworkReplayStreaming \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorder/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SequenceRecorder/Private/Sections \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Private \
@@ -1332,8 +1300,14 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Private/TrackEditors/PropertyTrackEditors \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Private/TrackEditorThumbnail \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MovieSceneTools/Private/Sections \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetCompiler/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/KismetCompiler \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetCompiler \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/BlueprintGraph/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/KismetWidgets/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/HotReload/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/HotReload \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/HotReload \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlueprintCompilerCppBackend/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlueprintCompilerCppBackend/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlueprintCompilerCppBackend \
@@ -1348,6 +1322,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlueprintProfiler \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/MoviePlayer/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Localization/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Localization/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Localization \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Localization \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/InternationalizationSettings/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/InternationalizationSettings/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/InternationalizationSettings \
@@ -1400,6 +1377,9 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/GameProjectGeneration/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Internationalization/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LocalizationService/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LocalizationService/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LocalizationService \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LocalizationService \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/TranslationEditor/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/TranslationEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TranslationEditor \
@@ -1448,15 +1428,14 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DestructibleMeshEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DestructibleMeshEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DestructibleMeshEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/MaterialEditor/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/FontEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/FontEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/FontEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SoundCueEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundCueEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SoundCueEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SoundClassEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SoundClassEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/SoundClassEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AudioEditor/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AudioEditor/Private/Factories \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AssetTools/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Private/AnimationPins \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GraphEditor/Private/AnimationStateNodes \
@@ -1507,6 +1486,7 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DistCurveEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/DistCurveEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/DistCurveEditor \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Cascade/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Cascade/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/Cascade/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Cascade \
@@ -1518,9 +1498,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/EditorSettingsViewer/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/EditorSettingsViewer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/EditorSettingsViewer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PackagesDialog/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PackagesDialog \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PackagesDialog \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PhAT/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/PhAT/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PhAT \
@@ -1595,11 +1572,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayTasksEditor/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayTasksEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayTasksEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayAbilitiesEditor/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayAbilitiesEditor/Classes \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayAbilitiesEditor/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GameplayAbilitiesEditor \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GameplayAbilitiesEditor \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/IOS/IOSRuntimeSettings/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/IOSRuntimeSettings \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/IOS/IOSRuntimeSettings \
@@ -1638,6 +1610,17 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/GeometryCacheEd \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Editor/GeometryCacheEd \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/GeometryCacheEd/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Settings \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Private/Transport \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TcpMessaging \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Messaging/TcpMessaging/Source/TcpMessaging \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidDeviceDetection \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidDeviceDetection \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Android/AndroidTargetPlatform/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Android/AndroidRuntimeSettings/Classes \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AndroidRuntimeSettings \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Android/AndroidRuntimeSettings \
@@ -1664,25 +1647,16 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/PerfCounters/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/PerfCounters \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/PerfCounters \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CollisionAnalyzer/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollisionAnalyzer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CollisionAnalyzer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LogVisualizer/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LogVisualizer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SynthBenchmark/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/DatabaseSupport/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/PacketHandler/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/HardwareSurvey/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/ActorSequence/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/StreamingPauseRendering/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/StreamingPauseRendering/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/StreamingPauseRendering \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/StreamingPauseRendering \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/SlateNullRenderer/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlankModule/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlankModule/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankModule \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlankModule \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/NullNetworkReplayStreaming \
@@ -1717,6 +1691,24 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/BuildPatchServices/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatADPCM \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AudioFormatADPCM \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOgg \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AudioFormatOgg \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioFormatOpus \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AudioFormatOpus \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationDriver/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationDriver/Private/Locators \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationDriver/Private/Specs \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationDriver/Private/MetaData \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationDriver/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AutomationDriver \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/AutomationDriver \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlankModule/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlankModule/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/BlankModule \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/BlankModule \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CollisionAnalyzer/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CollisionAnalyzer \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CollisionAnalyzer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashDebugHelper/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashDebugHelper/Private/Linux \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashDebugHelper/Private/Mac \
@@ -1724,10 +1716,23 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashDebugHelper/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CrashDebugHelper \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/CrashDebugHelper \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LogVisualizer/Public \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/LogVisualizer \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/LogVisualizer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SlackIntegrations/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SlackIntegrations/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SlackIntegrations \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/SlackIntegrations \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatASTC \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatASTC \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatIntelISPCTexComp \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatIntelISPCTexComp \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatDXT \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatDXT \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatPVR \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatPVR \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/TextureFormatUncompressed \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/TextureFormatUncompressed \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/UnrealCodeAnalyzerTests/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/UnrealCodeAnalyzerTests \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/UnrealCodeAnalyzerTests \
@@ -1743,10 +1748,6 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AudioMixer/Public/DSP \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/AudioMixer \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/AudioMixer \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CEF3Utils/Private \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CEF3Utils/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/CEF3Utils \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/CEF3Utils \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/FriendsAndChat/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/FriendsAndChat/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/FriendsAndChat/Public/Interfaces \
@@ -1765,16 +1766,14 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/ImageDownload/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/ImageDownload \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/ImageDownload \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL/Public \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL/Public/Interfaces \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/SSL \
-	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/SSL \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/Stomp/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/Stomp/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/Stomp \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/Stomp \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/WebSockets/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/WebSockets \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/WebSockets \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/WebSockets/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/XMPP/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/Online/XMPP/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UE4Editor/Inc/XMPP \
@@ -1829,6 +1828,7 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/CoreUObject \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/InputCore \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/PerforceSourceControl/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/PerforceSourceControl \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Plugins/Developer/PerforceSourceControl/Source/PerforceSourceControl \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Projects \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Json \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/MinidumpDiagnostics/Inc/Launch \
@@ -1836,6 +1836,7 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/Apple/MetalShaderFormat/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderFormatOpenGL/Private \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Developer/ShaderCompilerCommon/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Runtime/VulkanRHI/Public \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/CrossCompilerTool \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Programs/CrossCompilerTool \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/CrossCompilerTool/Inc/Projects \
@@ -2037,6 +2038,13 @@ INCLUDEPATH += \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealVersionSelector/Inc/Projects \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealVersionSelector/Inc/Json \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealVersionSelector/Inc/DesktopPlatform \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Programs/UnrealWatchdog/Private \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealWatchdog/Inc/UnrealWatchdog \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Programs/UnrealWatchdog \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealWatchdog/Inc/Analytics \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealWatchdog/Inc/AnalyticsET \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealWatchdog/Inc/Projects \
+	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/UnrealWatchdog/Inc/Json \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Intermediate/Build/Linux/B4D820EA/BootstrapPackagedGame/Inc/BootstrapPackagedGame \
 	/home/eduardo/Escritorio/unreal-engine/Engine/Source/Programs/Windows/BootstrapPackagedGame \
 	Source \
